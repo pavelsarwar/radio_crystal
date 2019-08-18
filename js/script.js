@@ -9,7 +9,7 @@ $( document ).ready(function() {
  var player = new Audio();
  player.autobuffer = true;
 
- var channel = ['http://144.217.129.213:8520/;stream'];
+ var channel = ['http://38.96.175.22:8648/;stream'];
  var current_channel = 0;
  var channel_img = ["images/radiotoday.png"]
 

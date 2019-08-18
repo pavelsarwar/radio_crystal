@@ -5,7 +5,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.radio.crystal"
         versionCode = "36" 
-		version   = "1.0.0">
+		version   = "1.1.0">
 
     <name>Radio Crystal</name>
 
@@ -25,11 +25,11 @@
 	  
 	  
 	
-	<icon src="res/mipmap-mdpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi" />
-	<icon src="res/mipmap-hdpi/ic_launcher.png" gap:platform="android" gap:qualifier="hdpi" />
-	<icon src="res/mipmap-xhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xhdpi" />
-	<icon src="res/mipmap-xxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxhdpi" />
-	<icon src="res/mipmap-xxxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxxhdpi" />
+	<icon src="res/mipmap-mdpi/launcher.png" gap:platform="android" gap:qualifier="mdpi" />
+	<icon src="res/mipmap-hdpi/launcher.png" gap:platform="android" gap:qualifier="hdpi" />
+	<icon src="res/mipmap-xhdpi/launcher.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<icon src="res/mipmap-xxhdpi/launcher.png" gap:platform="android" gap:qualifier="xxhdpi" />
+	<icon src="res/mipmap-xxxhdpi/launcher.png" gap:platform="android" gap:qualifier="xxxhdpi" />
 	
 
 
@@ -63,9 +63,9 @@
 
     <plugin name="cordova-plugin-whitelist"           source="npm" spec="~1.2.1" />
 
-  <access origin="http://144.217.129.213:8520/;stream*" />
+  <access origin="http://38.96.175.22:8648/;stream*" /> 
   <allow-navigation href="https://equinox.shoutca.st/*"/>
   
-  <allow-intent href="http://144.217.129.213:8520/;stream*"/>
+  <allow-intent href="http://38.96.175.22:8648/;stream*"/>
     
 </widget>
